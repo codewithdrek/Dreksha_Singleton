@@ -1,6 +1,8 @@
 package com.test.singleton;
 
-public class LazyInitilization {
+import java.io.Serializable;
+
+public class LazyInitilization  implements Serializable{
 
 	private static  LazyInitilization test;
 
